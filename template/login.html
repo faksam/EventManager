@@ -16,79 +16,66 @@
 </head>
 
 <body>
-    <div class="block">
-        <div class="navbar-fixed">
-            <nav class="pushpin-demo-nav pinned" style="top: 0px;">
-                <div class="row">
-                    <div class="nav-wrapper col s11 offset-s1">
-                        <a href="./index.html" class="brand-logo">Event Manager</a>
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="searchcenter.html">Centers</a></li>
-                            
-                            <li><a href="login.html">Log-in</a></li>
-                        </ul>
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a href="searchcenter.html">Centers</a></li>
-                            
-                            <li><a href="login.html">Log-in</a></li>
-                        </ul>
-                    </div>
+    <div class="navbar-fixed">
+        <nav class="pushpin-demo-nav pinned" data-target="pink accent-4" style="top: 0px;">
+            <div class="row">
+                <div class="nav-wrapper col s11 offset-s1">
+                    <a href="./index.html" class="brand-logo">Event Manager</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="searchcenter.html">Centers</a></li>
+                        
+                        <li><a href="login.html">Log-in</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="searchcenter.html">Centers</a></li>
+                        
+                        <li><a href="login.html">Log-in</a></li>
+                    </ul>
                 </div>
-            </nav>
+            </div>
+        </nav>
+    </div>
+    <div class="row block" style="background: linear-gradient(to right, #202a3c 50%, #fff 50%);">
+        <div class="col s6">
+            <img src="images/forloop-Abuja000.jpg" style="width: auto;height : auto;max-height: 100%;max-width: 100%;">  
         </div>
-        <div class="row">
-            <div class="container center">
-                <h2 class="light italic" style="color:#c51162;">OUR EVENT CENTERS</h2>
-                <form>
-                    <div class="input-field">
-                        <input id="search" type="search" required>
-                        <label class="label-icon" for="search"><i class="material-icons">search</i></label>
-                    </div>
-                </form>
-                <br /><br /><br />
-                <div class="row">
-                    <div class="col s4">
-                        <div class="card">
-                            <a href="./centerdetails.html">
-                                <div class="card-image">
-                                    <img src="images/civic-hall.jpg">
-                                </div>
-                                <div class="card-content">
-                                    <h5 style="color:#202a3c;">Civic Innovation Lab</h5>
-                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </a>
+        <div class="col s6" style="border-radius: 15px;">
+            <div class="container">
+                <div id="loginDiv" class="row" style="">
+                    <form class="col s12">
+                    <h4>Login</h4>
+                        <div class="row">
+                            <div class="input-field col s5">
+                                <input placeholder="Email" id="email" type="text" class="validate">
+                                <label for="email">Email</label>
+                            </div>
+                            <div class="input-field col s5">
+                                <input placeholder="Password" id="password" type="password" class="validate">
+                                <label for="password">Password</label>
+                            </div>
+                            <div class="input-field col s2">
+                                <a href="./userdashboard.html" class="btn waves-effect waves-light blue" style="border-radius: 25px;">Login<i class="material-icons right">send</i></a>&nbsp;&nbsp;&nbsp;
+                            </div>
                         </div>
-                    </div>
-                    <div class="col s4">
-                        <div class="card">
-                            <a href="./centerdetails.html">
-                                <div class="card-image">
-                                    <img src="images/Civic-Innovation-Hub.jpg">
-                                </div>
-                                <div class="card-content">
-                                    <h5 style="color:#202a3c;">Civic Innovation Lab</h5>
-                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-                    <div class="col s4">
-                        <div class="card">
-                            <a href="./centerdetails.html">
-                                <div class="card-image">
-                                    <img src="images/civic-hall001.jpg">
-                                </div>
-                                <div class="card-content">
-                                    <h5 style="color:#202a3c;">Civic Innovation Lab</h5>
-                                    <p>I am a very simple card. I am good at containing small bits of information. I am convenient because I require little markup to use effectively.</p>
-                                </div>
-                            </a>
-                        </div>
+                    </form><br /><br />
+                </div>
+                <div id="signUpDiv" class="row">
+                    <div class="form col s12">
+                        <h4>Create an account</h4>
+                        <p>It's free</p>
+                        <input type="text" required="" name="txtUsername_SU" id="txtUsername_SU" placeholder="Username" class="txtfield" tabindex="2">
+
+                        <input type="text" required="" name="txtEmail_SU" id="txtEmail_SU" placeholder="Email" class="txtfield" tabindex="3">
+
+                        <input type="password" required="" name="txtPassword_SU" id="txtPassword_SU" placeholder="Password" class="txtfield" tabindex="4">
+
+                        <a href="./userdashboard.html" class="btn waves-effect waves-light blue" style="border-radius: 25px;">Sign Up<i class="material-icons right">send</i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="./index.html" class="btn waves-effect waves-light red">Cancel<i class="material-icons right">cancel</i></a>
                     </div>
                 </div>
             </div>
+            <br /><br /><br />
         </div>
     </div>
     <div class="page-footer">

@@ -21,30 +21,30 @@
 			<nav class="pushpin-demo-nav pinned" style="top: 0px;">
 				<div class="row">
 					<div class="nav-wrapper col s11 offset-s1">
-						<a href="/" class="brand-logo">Event Manager</a>
+						<a href="./index.html" class="brand-logo">Event Manager</a>
 						<a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
 						<ul class="right hide-on-med-and-down">
 							<li><a href="searchcenter.html">Centers</a></li>
-							
-							<li><a href="login.html">Log-in</a></li>
+							<!-- Dropdown Trigger -->
+							<li><a class='dropdown-button btn' href='#' data-activates='dropdown1'>My Account</a></li>
+
+						</ul>						
+						<!-- Dropdown Structure -->
+						<ul id='dropdown1' class='dropdown-content'>
+							<li><a href="./addevent.html"><img src="images/170.png" alt="" class="circle" style="width:30%;height:30%">My Profile</a></li>
+							<li><a href="./addevent.html"><i class="material-icons">add</i>Create</a></li>
+							<li><a href="./searchevents.html"><i class="material-icons">view_module</i>My Event</a></li>
+							<li class="divider"></li>
+							<li><a href="./login.html">Sign Out</a></li>
 						</ul>
 						<ul class="side-nav" id="mobile-demo">
 							<li><a href="searchcenter.html">Centers</a></li>
-							
+
 							<li><a href="login.html">Log-in</a></li>
 						</ul>
 					</div>
 				</div>
 			</nav>
-		</div>
-		<div class="row block">
-			<div class="container" style=" padding-top:5%; padding-right:10px;">
-				<div class="col s12 center" style="border-radius: 15px;">
-					<h2 style="color:#f9f9f9;">Add a new event</h2>
-
-					<br /><br /><br />
-				</div>
-			</div>
 		</div>
 	</div>
 	<div class="page-footer">

@@ -14,6 +14,17 @@ nav {
 .home-bg-color {
     background-color: #202a3c;
 }
+.bg-img-3 {
+    content: '';
+    position: absolute;
+    width: 9.4cm;
+    height: 3cm;
+    background-image: url("../images/GDG_Lagos.jpg");
+    background-repeat: no-repeat;
+    background-size: 9.4cm 1.5cm;
+    background-color: #999;
+}
+<img src="images/GDG-Lagos-EventBanner.jpg" >
 /*
 .home-background {
     background-image: url("../images/GDG_Lagos.jpg");
@@ -24,7 +35,6 @@ nav {
     background-size: cover;
 }
      */
-
 .home-background {
     height: 100%;
     opacity: 0.9;
