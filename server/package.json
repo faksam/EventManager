@@ -1,0 +1,33 @@
+{
+  "name": "EventManager",
+  "version": "1.0.0",
+  "description": "Andela Pre-Bootcamp \"Developer Challenge\"",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "nodemon ./bin/www",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/faksam/EventManager.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/faksam/EventManager/issues"
+  },
+  "homepage": "https://github.com/faksam/EventManager#readme",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "morgan": "^1.9.0",
+    "pg": "^7.4.0",
+    "pg-hstore": "^2.3.2",
+    "sequelize": "^4.22.11"
+  },
+  "devDependencies": {
+    "eslint": "^4.11.0",
+    "nodemon": "^1.12.1"
+  }
+}
