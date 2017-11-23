@@ -42,3 +42,5 @@ router.delete('/:id', function (req, res, next) {
         res.json(post);
     });
 });
+
+module.exports = router;

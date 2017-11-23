@@ -1,9 +1,14 @@
+
+
 const express = require('express');
 const logger = require('morgan');
 var path = require('path');
 const bodyParser = require('body-parser');
 // Set up the express app
 const app = express();
+
+var events = require('./routes/events');
+var centers = require('./routes/centers');
 
 // Log requests to the console.
 app.use(logger('dev'));
@@ -31,12 +36,8 @@ app.set('view engine', 'html');
 app.get('/', function (req, res) {
     res.render('../template/index.html', { title: 'MyApp' });
 });
-app.get('/centers', function (req, res) {
-    res.render('../template/searchcenters.html');
-});
-app.get('/centers/:id', function (req, res) {
-    res.render('../template/centerdetails.html');
-});
 
+app.use('/centers', centers);
+app.use('/events', events);
 
 module.exports = app;
