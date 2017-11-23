@@ -1,0 +1,21 @@
+{
+  "centers": [
+    {
+      "id": 1,
+      "name": "Civic Innovation Lab1",
+      "address": "II Wuse Road Abuja, Nigeria",
+      "capacity": 500,
+      "description": "It is a Civic kinda thingly",
+      "facilities": [
+        {
+          "projector": true,
+          "no-chairs": 650,
+          "video-overage": true
+        }
+      ],
+      "first_name": "John",
+      "last_name": "Smith",
+      "phone": "219-839-2819"
+    }
+  ]
+}

@@ -1,13 +1,23 @@
 var express = require('express');
 var router = express.Router();
+var jsonfile = require('jsonfile')
+var file = 'event-manager/centers.json'
 
+jsonfile.readFile(file, function (err, obj) {
+    console.dir(obj)
+})
 var Center = require('../models/Center.js');
 
 /* GET /todos listing. */
 router.get('/', function (req, res, next) {
-    Center.find(function (err, centers) {
-        if (err) return next(err);
-        res.json(centers);
+    var d;
+    jsonfile.readFile(file, function (err, obj) {
+        if (err) throw err;
+        console.log(obj);
+        d = obj;
+        console.log("in router");
+        console.log(d);
+        res.render('searchcenters', { centers: obj });
     });
 });
 
@@ -21,10 +31,7 @@ router.post('/', function (req, res, next) {
 
 /* GET /todos/id */
 router.get('/:id', function (req, res, next) {
-    Center.findById(req.params.id, function (err, post) {
-        if (err) return next(err);
-        res.json(post);
-    });
+    res.render('centerdetails.html');
 });
 
 /* PUT /todos/:id */

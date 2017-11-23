@@ -1,5 +1,11 @@
 var express = require('express');
 var router = express.Router();
+var jsonfile = require('jsonfile');
+var file = '../event-manager/centers.json';
+
+jsonfile.readFile(file, function (err, obj) {
+    console.dir(obj)
+})
 
 var Event = require('../models/Event.js');
 
