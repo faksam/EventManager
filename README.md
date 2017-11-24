@@ -1,14 +1,5 @@
-# Event Manager https://travis-ci.org/travis-ci/travis-web.svg?branch=daily-cron
+# Event Manager 
 Andela Pre-Bootcamp "Developer Challenge"
-
-Given you manage an events center, this app will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day
-Create a Pivotal Tracker Board  
-
-# Install dependencies
-npm install
-
-# Serve at localhost:8000
-npm run start:dev
 
 ### The client-side and server-side features are as follows:
 - User signup and signin pages.
@@ -43,15 +34,27 @@ npm run start:dev
 - Users would be able to filter search based on facilities e.g projector, number of chairs etc.
 - Users would be able to see the dates booked
 
+## Why the project is useful
+Given you manage an events center, this app will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day.
 
-## Technologies used:
-- HTML/CSS
-- NodeJS
-- ReactJS
-- Javascript / ES6
+### How users can get started with the project
+  - Requirements
+  - How to setup the project/Installation/Configuration
+  - How to run tests
+  
+    #### Install dependencies
+    npm install
 
-## Prerequisites
-Ensure you install the necessary software tools, mainly: Git, Sublime Text and NodeJS
+    #### Serve at localhost:8000
+    npm run start:dev
 
-## Author
+### Limitations of the project
+
+### Contributing to the project
+
+### Troubleshooting & FAQ
+
+### License
+
+#### Author
 Fakunle Mayowa Samuel - Andela Developer Challenge
