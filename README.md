@@ -4,6 +4,11 @@ Andela Pre-Bootcamp "Developer Challenge"
 Given you manage an events center, this app will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day
 Create a Pivotal Tracker Board  
 
+# Install dependencies
+npm install
+
+# Serve at localhost:8000
+npm run start:dev
 
 ### The client-side and server-side features are as follows:
 - User signup and signin pages.
