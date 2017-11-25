@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/faksam/EventManager.svg?branch=master)](https://travis-ci.org/faksam/EventManager)  [![Maintainability](https://api.codeclimate.com/v1/badges/84ffad4f5752f58f4b45/maintainability)](https://codeclimate.com/github/faksam/EventManager/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/84ffad4f5752f58f4b45/test_coverage)](https://codeclimate.com/github/faksam/EventManager/test_coverage)  [![Coverage Status](https://coveralls.io/repos/github/faksam/EventManager/badge.png?branch=master)](https://coveralls.io/github/faksam/EventManager?branch=master)
+
 # Event Manager
 Andela Pre-Bootcamp "Developer Challenge"
 
