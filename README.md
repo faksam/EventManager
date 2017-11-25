@@ -1,10 +1,6 @@
-<<<<<<< HEAD
-# Event Manager https://travis-ci.org/travis-ci/travis-web.svg?branch=daily-cron
-=======
 [![Build Status](https://travis-ci.org/faksam/EventManager.svg?branch=master)](https://travis-ci.org/faksam/EventManager)  [![Maintainability](https://api.codeclimate.com/v1/badges/84ffad4f5752f58f4b45/maintainability)](https://codeclimate.com/github/faksam/EventManager/maintainability)  [![Test Coverage](https://api.codeclimate.com/v1/badges/84ffad4f5752f58f4b45/test_coverage)](https://codeclimate.com/github/faksam/EventManager/test_coverage)  [![Coverage Status](https://coveralls.io/repos/github/faksam/EventManager/badge.png?branch=master)](https://coveralls.io/github/faksam/EventManager?branch=master)
 
 # Event Manager
->>>>>>> 3ad6c0febc6a98ce747930f37f26fd0acc56610c
 Andela Pre-Bootcamp "Developer Challenge"
 
 Given you manage an events center, this app will help you accept applications to use your center / facilities, and will either decline events when the proposed day is already taken, or suggest an available day
