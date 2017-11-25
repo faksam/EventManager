@@ -16,35 +16,51 @@
 </head>
 
 <body>
-    <div class="block">
-        <div class="navbar-fixed">
-            <nav class="pushpin-demo-nav pinned" style="top: 0px;">
-                <div class="row">
-                    <div class="nav-wrapper col s11 offset-s1">
-                        <a href="./index.html" class="brand-logo">Event Manager</a>
-                        <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
-                        <ul class="right hide-on-med-and-down">
-                            <li><a href="searchcenter.html">Centers</a></li>
-                            
-                            <li><a href="login.html">Log-in</a></li>
-                        </ul>
-                        <ul class="side-nav" id="mobile-demo">
-                            <li><a href="searchcenter.html">Centers</a></li>
-                            
-                            <li><a href="login.html">Log-in</a></li>
-                        </ul>
-                    </div>
-                </div>
-            </nav>
-        </div>
-        <div class="row block">
-            <div class="container" style=" padding-top:5%; padding-right:10px;">
-                <div class="col s12 center" style="border-radius: 15px;">
-                    <h2 style="color:#f9f9f9;">Add a new center</h2>
+    <div class="navbar-fixed">
+        <nav class="pushpin-demo-nav pinned" data-target="pink accent-4" style="top: 0px;">
+            <div class="row">
+                <div class="nav-wrapper col s11 offset-s1">
+                    <a href="./index.html" class="brand-logo">Event Manager</a>
+                    <a href="#" data-activates="mobile-demo" class="button-collapse"><i class="material-icons">menu</i></a>
+                    <ul class="right hide-on-med-and-down">
+                        <li><a href="./searchcenters.html">Centers</a></li>
 
-                    <br /><br /><br />
+                        <li><a href="login.html">Log-in</a></li>
+                    </ul>
+                    <ul class="side-nav" id="mobile-demo">
+                        <li><a href="./searchcenters.html">Centers</a></li>
+
+                        <li><a href="login.html">Log-in</a></li>
+                    </ul>
                 </div>
             </div>
+        </nav>
+    </div>
+    <div class="row block" style="background: linear-gradient(to right, #202a3c 50%, #fff 50%);">
+        <div class="col s6">
+            <img src="images/forloop-Abuja000.jpg" style="width: auto;height : auto;max-height: 100%;max-width: 100%;">
+        </div>
+        <div class="col s6" style="border-radius: 15px;">
+            <div class="container">
+                <div id="createDiv" class="row">
+                    <div class="form col s12">
+                        <h4>Create a new center</h4>
+                        <input type="text" required="" name="txtName" id="txtName" placeholder="Name" class="txtfield" tabindex="2">
+
+                        <input type="text" required="" name="txtAddress" id="txAddress" placeholder="Address" class="txtfield" tabindex="2">
+
+                        <input type="text" required="" name="txtDescription" id="txtDescription" placeholder="Description" class="txtfield" tabindex="3">
+
+                        <input type="text" required="" name="txtCapacity" id="txtCapacity" placeholder="Capacity" class="txtfield" tabindex="3">
+
+                        <input type="text" required="" name="txtFacilities" id="txtFacilities" placeholder="Facilities" class="txtfield" tabindex="3">
+
+                        <a href="./admindashboard.html"  class="btn waves-effect waves-light blue" style="border-radius: 25px;">Add<i class="material-icons right">send</i></a>&nbsp;&nbsp;&nbsp;
+                        <a href="./index.html" class="btn waves-effect waves-light red">Cancel<i class="material-icons right">cancel</i></a>
+                    </div>
+                </div>
+            </div>
+            <br /><br /><br />
         </div>
     </div>
     <div class="page-footer">
