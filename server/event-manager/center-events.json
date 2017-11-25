@@ -13,9 +13,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""
@@ -35,9 +35,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""
@@ -57,9 +57,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""
@@ -79,9 +79,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""
@@ -101,9 +101,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""
@@ -123,9 +123,9 @@
           "video-overage": true
         }
       ],
-      "booked-events": [
+      "events": [
         {
-          "booked-by": "",
+          "bookedBy": "",
           "date": "",
           "email": "",
           "phone": ""

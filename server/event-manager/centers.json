@@ -83,11 +83,51 @@
       ],
       "first_name": "John",
       "last_name": "Smith",
-      "phone": "219-839-2819"
+      "phone": "219-839-2819",
+      "events": {
+        "bookedBy": "fakunle samuel",
+        "date": "11/12/17",
+        "email": "contact@fakunlesamuel.com",
+        "phone": "0703924853"
+      }
     },
     {
       "id": 6,
       "name": "Civic Innovation Lab6",
+      "address": "II Wuse Road Abuja, Nigeria",
+      "capacity": 500,
+      "description": "It is a Civic kinda thingly",
+      "facilities": [
+        {
+          "projector": true,
+          "no-chairs": 650,
+          "video-overage": true
+        }
+      ],
+      "first_name": "John",
+      "last_name": "Smith",
+      "phone": "219-839-2819"
+    },
+    {
+      "id": 7,
+      "name": "Civic Innovation Lab7",
+      "address": "II Wuse Road Abuja, Nigeria",
+      "capacity": 500,
+      "description": "It is a Civic kinda thingly",
+      "facilities": [
+        {
+          "projector": true,
+          "no-chairs": 650,
+          "video-overage": true
+        }
+      ],
+      "first_name": "John",
+      "last_name": "Smith",
+      "phone": "219-839-2819"
+    },
+    {
+      "id": 7,
+      "name": "Civic Innovation Lab - 7",
       "address": "II Wuse Road Abuja, Nigeria",
       "capacity": 500,
       "description": "It is a Civic kinda thingly",
