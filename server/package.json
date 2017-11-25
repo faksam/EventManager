@@ -4,7 +4,7 @@
   "description": "Andela Pre-Bootcamp \"Developer Challenge\"",
   "main": "index.js",
   "scripts": {
-    "start": "node app.js",
+    "start": "node server/app.js",
     "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
     "test": "mocha --recursive --compilers js:babel-register"
   },
