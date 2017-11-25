@@ -7,7 +7,7 @@ jsonfile.readFile(file, function (err, obj) {
     console.dir(obj)
 })
 
-var Event = require('../models/Event.js');
+//var Event = require('../models/Event.js');
 
 /* GET /todos listing. */
 //router.get('/', function (req, res, next) {

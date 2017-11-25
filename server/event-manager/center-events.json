@@ -13,9 +13,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": 2,
@@ -30,9 +35,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": 3,
@@ -47,9 +57,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": 4,
@@ -64,9 +79,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": 5,
@@ -81,9 +101,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     },
     {
       "id": 6,
@@ -98,9 +123,14 @@
           "video-overage": true
         }
       ],
-      "first_name": "John",
-      "last_name": "Smith",
-      "phone": "219-839-2819"
+      "booked-events": [
+        {
+          "booked-by": "",
+          "date": "",
+          "email": "",
+          "phone": ""
+        }
+      ]
     }
   ]
 }

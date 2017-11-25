@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start:dev": "nodemon ./bin/www",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "rimraf dist/ && babel ./ --out-dir dist/ --ignore ./node_modules,./.babelrc,./package.json,./npm-debug.log --copy-files",
+    "test": "mocha --recursive"
   },
   "repository": {
     "type": "git",
@@ -23,13 +24,25 @@
     "express": "^4.16.2",
     "jsonfile": "^4.0.0",
     "morgan": "^1.9.0",
+    "rimraf": "^2.6.1",
     "pg": "^7.4.0",
     "pg-hstore": "^2.3.2",
     "sequelize": "^4.22.11"
   },
   "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "*",
     "babel-preset-env": "^1.6.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-es2015-node5": "*",
+    "babel-preset-stage-2": "^6.24.1",
+    "babel-preset-stage-3": "*",
+    "babel-register": "^6.26.0",
+    "chai": "^4.1.2",
+    "chai-http": "^3.0.0",
     "eslint": "^4.11.0",
-    "nodemon": "^1.12.1"
+    "mocha": "^4.0.1",
+    "nodemon": "^1.12.1",
+    "rimraf": "^2.6.2"
   }
 }

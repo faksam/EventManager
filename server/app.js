@@ -1,4 +1,4 @@
-
+//import express from 'express';
 
 const express = require('express');
 const logger = require('morgan');
@@ -22,7 +22,7 @@ app.use(bodyParser.urlencoded({ extended: false }));
 //    message: 'Welcome to the beginning of nothingness.',
 //}));
 
-app.use(express.static(path.join(__dirname, '../template')));
+app.use(express.static(path.join(__dirname, '../template')));//remove ../ pass template  ass 
 // Require static assets from template folder
 app.use('../template', express.static(path.join(__dirname + '../template')));
 
